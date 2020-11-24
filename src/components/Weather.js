@@ -44,7 +44,7 @@ function Weather() {
           name="city"
           onChange={(e) => handleChange(e)}
         />
-        <button className="getweather" onClick={(e) => weatherData(e)}>
+        <button className="getweatherbutton" onClick={(e) => weatherData(e)}>
           Submit
         </button>
       </form>

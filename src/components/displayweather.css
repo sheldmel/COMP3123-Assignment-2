@@ -6,7 +6,7 @@
 }
 
 
-.displayweather .maincard {
+.displayweather .main {
   width: 500px;
   margin-top: 20px;
   align-self: center;
@@ -16,7 +16,7 @@
   color: white;
 }
 
-.displayweather .maincard .cardtitle {
+.displayweather .main .title {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -24,7 +24,7 @@
   color: white;
 }
 
-.displayweather .maincard .cardsubtitle {
+.displayweather .main .subtitle {
   position: absolute;
   left: 10px;
 

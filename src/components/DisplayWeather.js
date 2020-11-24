@@ -10,11 +10,11 @@ function DisplayWeather(props) {
     <div className="displayweather">
       {data.cod != 404 ? (
         <React.Fragment>
-          <div className="maincard">
-            <span className="cardtitle">
+          <div className="main">
+            <span className="title">
               {data.name} , {data.sys.country}. Weather
             </span>
-            <span className="cardsubtitle">
+            <span className="subtitle">
               {new Date().toLocaleTimeString()}
             </span>
 
